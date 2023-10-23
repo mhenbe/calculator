@@ -1,7 +1,7 @@
 import requests
 
 # Replace 'YOUR_API_KEY' with your actual API key from Alpha Vantage
-API_KEY = 'YOUR_API_KEY'  # Replace 'YOUR_API_KEY' with your actual API key
+API_KEY = 'I1UYF4O31T6XIXD6'  # Replace 'YOUR_API_KEY' with your actual API key
 
 def get_stock_data(symbol):
     base_url = f'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY'
